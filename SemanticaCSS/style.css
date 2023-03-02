@@ -1,0 +1,40 @@
+body{
+    background-color: gray;
+}
+
+#bodyLogin {
+    background: rgb(9,21,121);
+    background: linear-gradient(90deg, rgba(9,21,121,0.6895133053221288) 35%, rgba(0,215,255,1) 100%);
+}
+/* cor de fundo do body cinza */
+#menu {
+    width: 100%; /*largura*/
+    height: 80px; /*altura*/
+    background-color: red;
+}
+#menu img{
+    height: 60px;
+}
+.linkMenu {
+    color: aliceblue;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.parte1 {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+.parte1 img {
+    height: 500px;
+}
+.parte1 h1 {
+    color: red;
+}
+.parte1 p {
+    font-family: 'Times New Roman', Times, serif;
+    color: azure;
+}
