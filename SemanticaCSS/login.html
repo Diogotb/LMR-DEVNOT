@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,23 @@
     <title>página de login Css</title>
     <link rel="stylesheet" href="styleLogin.css">
 </head>
+
 <body>
     <div class="login">
         <h1>Login</h1>
+        <img src="img/login.png" alt="loginIcon">
         <form method="post" class="form">
-            <input type="text" placeholder="Usuário" class="entrada" >
-            <input type="password" placeholder="Senha" class="entrada" >
+            <input type="text" placeholder="Usuário" class="entrada">
+            <input type="password" placeholder="Senha" class="entrada">
+            <div class="remember">
+                <input type="checkbox" name="remember-me" id=""> <label for="remember-me">Remember-me</label>
+                <a href="http://www.google.com" target="_blank"><label>Esquecia Senha</label></a>
+            </div>
             <input type="button" value="Entrar" class="botao">
-            
+
         </form>
     </div>
-    
+
 </body>
+
 </html>
