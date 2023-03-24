@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.nav{
+    background-color: aliceblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav img{
+    height: 70px;
+}
+.nav .linkMenu{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+}
+.nav .menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav .mHamburger{
+    display: none;
+}
+.container{
+    background: grey;
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container .linha1{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .red{
+    background: red;
+    width: 23%;
+    height: 23vh;
+}
+.container .blue{
+    background: blue;
+    width: 23%;
+    height: 23vh;
+}
