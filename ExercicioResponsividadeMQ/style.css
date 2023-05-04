@@ -12,7 +12,7 @@ header img{    height: 90%;}
 
 .parte1{
     background-image: url(img/banner_analise_e_des_sistemas.jpeg);
-    background-size: cover;
+    background-size: 100%
     width: 100%;
     height: 60vh;
     margin: 0;
