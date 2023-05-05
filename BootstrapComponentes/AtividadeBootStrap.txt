@@ -1,0 +1,9 @@
+Criar 5 Páginas
+
+ - Com Carrosel e um outro componente
+ - com 12 Cards - distribuidos em 3 linhas
+ - com formula´rio de acesso ( usuario e login)
+ - com formulario de cadastro
+ - com formulário de contato
+
+ todas as páginas precisavam ter  navBar e footer
