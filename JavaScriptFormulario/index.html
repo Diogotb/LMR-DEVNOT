@@ -21,8 +21,25 @@
         <br>
         <input type="button" value="Concatenar"  onclick="MostrarNome()"/>
     </form>
+    <br>
+    <hr>
     <form action="" id="MyCalc">
-        <input type="number">
+        <label for="pv1" title="Informe o Valor 1">
+            Entre com o 1º valor .....:
+        </label>
+        <input type="text" id="pv1" />
+        <br/>
+        <label for="pv2" title="Informe o Valor 2">
+            Entre com o 2º valor .....:
+        </label>
+        <input type="text" id="pv2" />
+        <br/>
+        <br/>
+        <input type="button" value="Somar" onclick="Somar()" />
+        <input type="button" value="Subtrair" onclick="Sub()" />
+        <input type="button" value="Multiplicar" onclick="Mult()" />
+        <input type="button" value="Dividir" onclick="Div()" />
+
     </form>
     
 </body>
