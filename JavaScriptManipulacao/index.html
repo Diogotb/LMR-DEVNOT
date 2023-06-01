@@ -12,33 +12,38 @@
 
 <body>
     <div class="container">
-        <div class="col-4">
-            <form id="fPessoas">
-                <div class="mb-3">
-                    <label for="fNome" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="fNome">
-                </div>
-                <div class="mb-3">
-                    <label for="fSobrenome" class="form-label">Sobrenome</label>
-                    <input type="text" class="form-control" id="fSobrenome">
-                </div>
-                <div class="mb-3">
-                    <label for="fIdade" class="form-label">Idade</label>
-                    <input type="number" class="form-control" id="fIdade">
-                </div>
-                <div class="mb-3">
-                    <label for="fEmail" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="fEmail">
-                </div>
-                <div class="mb-3">
-                    <label for="fConfirmaEmail" class="form-label">Confirmar Email</label>
-                    <input type="email" class="form-control" id="fConfirmaEmail">
-                </div>
-                
-            </form>
+        <div class="row">
+            <div class="col-4">
+                <form id="fPessoas">
+                    <div class="mb-3">
+                        <label for="fNome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="fNome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fSobrenome" class="form-label">Sobrenome</label>
+                        <input type="text" class="form-control" id="fSobrenome">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fIdade" class="form-label">Idade</label>
+                        <input type="number" class="form-control" id="fIdade">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="fEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fConfirmaEmail" class="form-label">Confirmar Email</label>
+                        <input type="email" class="form-control" id="fConfirmaEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fAvatar">Choose a profile picture:</label>
+                        <input type="file" id="avatar" name="fAvatar" accept="image/png, image/jpeg">
+                    </div>
+                </form>
+                <button class="btn btn-primary" onclick="mudarConteudo()">Adicionar</button>
+            </div>
         </div>
-        <button class="btn-primary" onclick="mudarConteudo()">Adicionar</button>
-        <div class="row" id="paragrafo" onclick="mudarConteudo()"></div>
+        <div class="row mb-3" id="paragrafo"></div>
     </div>
 </body>
 <script src="script.js"></script>
