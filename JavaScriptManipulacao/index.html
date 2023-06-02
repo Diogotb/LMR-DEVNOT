@@ -25,7 +25,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="fIdade" class="form-label">Idade</label>
-                        <input type="number" class="form-control" id="fIdade">
+                        <input type="text" inputmode="numeric" data-ref="cardNumber" class="form-control" id="fIdade">
                     </div>
                     <div class="mb-3">
                         <label for="fEmail" class="form-label">Email</label>
@@ -37,7 +37,8 @@
                     </div>
                     <div class="mb-3">
                         <label for="fAvatar">Choose a profile picture:</label>
-                        <input type="file" id="avatar" name="fAvatar" accept="image/png, image/jpeg">
+                        <input type="file" id="fAvatar" onchange="previewFile()" name="fAvatar" accept="image/png, image/jpeg">
+                        <img src="" height="200" alt="Prévia da imagem...">
                     </div>
                 </form>
                 <button class="btn btn-primary" onclick="mudarConteudo()">Adicionar</button>
