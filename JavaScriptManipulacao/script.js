@@ -2,7 +2,7 @@ function previewFile() {
     let preview = document.querySelector('img');
     let file    = document.querySelector('#fAvatar').files[0];
     let reader  = new FileReader();
-  
+    
     reader.onloadend = function () {
       preview.src = reader.result;
     }
@@ -19,12 +19,13 @@ function mudarConteudo() {
     let sobrenome = document.getElementById("fSobrenome").value;
     let idade = document.getElementById("fIdade").value;
     let email = document.getElementById("fEmail").value;
-    let imagem    = document.querySelector('#fAvatar').files[0];
+
     let reader  = new FileReader();
     let preview = document.querySelector('img');
     reader.onloadend = function () {
       preview.src = reader.result;
     }
+    
     
 
     let card = `<div class="card" style="width: 18rem; heigth=27rem">
