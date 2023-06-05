@@ -2,7 +2,7 @@ function previewFile() {
     let preview = document.querySelector('img');
     let file    = document.querySelector('#fAvatar').files[0];
     let reader  = new FileReader();
-    
+
     reader.onloadend = function () {
       preview.src = reader.result;
     }
@@ -39,5 +39,7 @@ function mudarConteudo() {
 </div>`;
     preview.src = "";
     document.getElementById("paragrafo").innerHTML += card;
+    alert("cadastro realizado com sucesso"+nome)
     fPessoas.reset();
   }
+  function
